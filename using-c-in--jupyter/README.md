@@ -12,7 +12,7 @@ pipenv install jupyter
 pipenv install jupyter-c-kernel
 pipenv run jupyter lab
 ```
-
+**See example provided [here](./w-c-kernel/index.ipynb)**
 
 
 ## Work with c in Jupyter without the jupyter-c-kernel
@@ -21,7 +21,7 @@ Ref: [How to Code in C with a Jupyter Notebook - YouTube](https://www.youtube.co
 
 You can work with c in Jupyter without the jupyter-c-kernel by using the Ipython's magic commands `%%file` and `%%bash.` The `%%file` command allows you to edit a file, and the `%%bash` command lets you access the c-compiler installed on your computer in the bash shell. 
 
-See example provided [here](./w-no-c-kernel/index.ipynb) 
+**See example provided [here](./w-no-c-kernel/index.ipynb)**
 
 In the example I linked to, the c-compiler generates an executed file `main` can be ignored by git. Since the executable is extension less, the following has been added to the `.gitignore` in the root of this repository:
 ```
