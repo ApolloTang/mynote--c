@@ -45,7 +45,7 @@ int main(void) {
 ```
 gcc main.c -o main
 ```
-
+[link to notebook](,/ipynb--hello-world/index.ipynb)
 
 
 ## Compile with debug information
@@ -55,4 +55,4 @@ Often when compiling with gcc, you want to enable more compiler warnings and bui
 ```
 gcc -Wall -g -o hello-extra hello.c
 ```
-
+[link to notebook](,/ipynb--compile-with-extra-debugging-info/index.ipynb)
