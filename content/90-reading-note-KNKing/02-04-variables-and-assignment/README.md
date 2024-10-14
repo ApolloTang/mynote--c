@@ -1,6 +1,7 @@
+               
+[link to ipynb](./index.ipynb)
 
 ## Types
-
 
 
 ### float
@@ -36,7 +37,7 @@ Prior to C99 **all** *declarations* must come before *statements*:
 ```c
 int main(void)
 {
-	// Declaration section
+  // Declaration section
   <declarations of variable a>
   <declarations of variable b> 
       
@@ -51,7 +52,7 @@ With C99 declaration is not necessary until it is needed:
 ```c
 int main(void)
 {
-	<declarations of variable a> 
+  <declarations of variable a> 
   <statements that use a>
    
   <bunch of statements here>
@@ -91,3 +92,22 @@ int height;
 height = 2150.48f;
 ```
 
+## Printing the value of a variable
+
+`%f` displays a number with six digits after the decimal point.
+```c
+profit = 2150.48f;
+printf("Profit: $%f\n", profit); 
+```
+Result:
+```
+Profit: $2150.479980
+```
+To display `p` digits after the decimal point, we can put `.p` between `%` and `f`: 
+```c
+printf("Profit: $%.2f\n", profit);
+```
+Result:
+```
+Profit: $2150.48
+```
