@@ -1,5 +1,5 @@
                
-[link to ipynb](./index.ipynb)
+
 
 ## Types
 
@@ -94,7 +94,7 @@ height = 2150.48f;
 
 ## Printing the value of a variable
 
-`%f` displays a number with six digits after the decimal point.
+By default, `%f` displays a number with six digits after the decimal point.
 ```c
 profit = 2150.48f;
 printf("Profit: $%f\n", profit); 
@@ -111,3 +111,4 @@ Result:
 ```
 Profit: $2150.48
 ```
+[link to ipynb](./printing-the-value-of-a-variable.ipynb)
